@@ -4,4 +4,7 @@ CONFIG_BT_DEVICE_NAME="YourKeyboardName"
 
 CONFIG_ZMK_BLE_CLEAR_BONDS=y
 
+#override oldest pair
+CONFIG_BT_KEYS_OVERWRITE_OLDEST=y
+
 endif
