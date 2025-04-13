@@ -1,6 +1,5 @@
 if SHIELD_TUBETEST
-            
-config ZMK_KEYBOARD_NAME
-    default "TubeTest"
 
+CONFIG_BT_DEVICE_NAME="YourKeyboardName"
+            
 endif
