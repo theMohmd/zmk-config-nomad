@@ -1,5 +1,7 @@
 if SHIELD_TUBETEST
 
 CONFIG_BT_DEVICE_NAME="YourKeyboardName"
-            
+
+CONFIG_ZMK_BLE_CLEAR_BONDS=y
+
 endif
