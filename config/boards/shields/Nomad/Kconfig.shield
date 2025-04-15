@@ -1,0 +1,3 @@
+config SHIELD_NOMAD
+    def_bool $(shields_list_contains, Nomad)
+    

@@ -1,0 +1,6 @@
+if SHIELD_NOMAD
+
+config ZMK_KEYBOARD_NAME
+    default "Nomad"
+
+endif
